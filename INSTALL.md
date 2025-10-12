@@ -112,7 +112,11 @@ Build and install the assembler called “NASM” from the source file using the
 Build “x264” from the source file using the following steps:
 
 1. **Decompress and place the source file under “/usr/local/src”:**
-   
+
+    ```
+    cd /usr/local/src
+    ```
+
     (Option1)
     ```sh
     sudo tar jxvf x264-master.tar.bz2 -C /usr/local/src/
@@ -124,13 +128,13 @@ Build “x264” from the source file using the following steps:
     ```
 
 
-2. **Move to the directory where the source file is placed and configure the build:**
+1. **Move to the directory where the source file is placed and configure the build:**
     ```sh
     cd /usr/local/src/x264-master
     sudo ./configure --disable-asm --enable-shared --enable-static --enable-pic
     ```
 
-3. **Build the source file and install it:**
+2. **Build the source file and install it:**
     ```sh
     sudo make install
     ```
