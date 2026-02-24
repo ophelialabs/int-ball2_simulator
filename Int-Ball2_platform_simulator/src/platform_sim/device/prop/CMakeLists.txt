@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 2.8.3)
 project(prop)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
-add_compile_options(-std=c++11)
+# add_compile_options(-std=c++11)
 option(WITH_PCA9685 "execute with PCA9685 board" OFF) # ON->OFF to OSS
 if (WITH_PCA9685)
   add_definitions(-DWITH_PCA9685)

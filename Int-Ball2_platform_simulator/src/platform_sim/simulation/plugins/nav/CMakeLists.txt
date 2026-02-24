@@ -3,7 +3,7 @@ project(nav)
 cmake_policy(SET CMP0054 OLD) 
 
 ## Compile as C++11, supported in ROS Kinetic and newer
-add_compile_options(-std=c++11)
+# add_compile_options(-std=c++11)
 option(NAV_DEBUG "execute in nav debug mode" OFF)
 if (NAV_DEBUG)
   add_definitions(-DNAV_DEBUG)
