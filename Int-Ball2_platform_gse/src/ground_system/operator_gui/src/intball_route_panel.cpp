@@ -166,7 +166,7 @@ void IntBallRoutePanel::initialize(const QString pathRvizConfig)
     {
         throwIntBallConfigError(pathRvizConfig, rvizConfigReader.errorMessage());
     }
-    manager_.reset(new rviz::VisualizationManager(renderPanel_, nullptr, getTransformListener()));
+    manager_.reset(new rviz::VisualizationManager(renderPanel_));
     manager_->initialize();
     renderPanel_->initialize(manager_->getSceneManager(), manager_.get());
     manager_->load(config);
