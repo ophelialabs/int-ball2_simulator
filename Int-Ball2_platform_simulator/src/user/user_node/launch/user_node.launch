@@ -1,0 +1,3 @@
+<launch>
+  <node pkg="user_node" type="user_node.py" name="user_node" output="screen" />
+</launch>

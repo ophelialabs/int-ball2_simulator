@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>user_node</name>
+  <version>0.0.0</version>
+  <description>Empty ROS node (Python) for ROS Noetic</description>
+
+  <maintainer email="jaxa.doe@example.com">JAXA</maintainer>
+  <license>N/A</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- runtime deps -->
+  <exec_depend>rospy</exec_depend>
+
+</package>
