@@ -3,7 +3,7 @@
     {
       "user": "user_node",
       "launch": [
-        "user_node.launch",
+        "user_node.launch"
       ]
     }
   ]
