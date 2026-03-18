@@ -1,4 +1,4 @@
-<div align="center"><img src="https://github.com/jaxa/int-ball2_simulator/docs/image/ib2_mission_emblem.png" width="230"/>                                                      
+<div align="center"><img src="docs/image/ib2_mission_emblem.png" width="230"/>                                                      
 
 # Int-Ball2 Simulator
 
@@ -15,7 +15,7 @@
 ---
 
 ## Overview
-<img src="https://github.com/jaxa/int-ball2_simulator/blob/main/docs/image/ib2.png" title="Int-Ball2 on the ISS" width="300" align="right" style="display: inline"/>
+<img src="docs/image/ib2.png" title="Int-Ball2 on the ISS" width="300" align="right" style="display: inline"/>
 
 **Int-Ball2** (JEM Internal Ball Camera 2 System) is a free-flying camera robot deployed in the ISS Japan Experimental Module (JEM). It is remotely controlled from the ground to capture video images and support astronauts. Additionally, Int-Ball2 can run user-developed software as an extended functionality and can be used as a platform for demonstrating robotic technology in space.  
 
@@ -29,7 +29,7 @@
 - **User Program Ground Support Equipment (GSE)**: Simulates the GUI of the GSE for user program deployment in actual operations. Enables telemetry reception and command transmission for realistic operational workflows. User programs can be started or stopped from the GSE. (Note: This is not the GSE for nominal Int-Ball2 video-taking operations.)  
 
   
-<div align="center"><img src="https://github.com/jaxa/int-ball2_simulator/blob/main/docs/image/ib2_sim.gif" align="center"/></div>
+<div align="center"><img src="docs/image/ib2_sim.gif" align="center"/></div>
 
 ## Requirements
 - **Operating System**: Ubuntu 18.04 Bionic  
