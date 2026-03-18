@@ -1,4 +1,4 @@
-<div align="center"><img src="https://github.com/jaxa/int-ball2_simulator/blob/main/docs/image/ib2_mission_emblem.png" width="230"/></div>
+<div align="center"><img src="https://github.com/jaxa/int-ball2_simulator/docs/image/ib2_mission_emblem.png" width="230"/>                                                      
 
 # Int-Ball2 Simulator
 
