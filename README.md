@@ -1,7 +1,9 @@
 <div align="center"><img src="docs/image/ib2_mission_emblem.png" width="230"/>                                                      
 
 # Int-Ball2 Simulator
-7 thrustrers = 6 Degrees of Freedom | Round shape = Easier Cloaking
+7 thrusters = 6 Degrees of Freedom | Round shape = Easier Cloaking |
+[mkv](https://en.wikipedia.org/wiki/Multiple_Kill_Vehicle)
+
 <p style="display: inline">
 
   <img src="https://img.shields.io/badge/-Ubuntu_18.04_LTS-555555.svg?style=flat&logo=ubuntu">
